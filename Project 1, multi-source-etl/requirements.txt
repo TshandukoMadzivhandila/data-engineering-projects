@@ -1,0 +1,4 @@
+pandas==2.0.1
+numpy==1.24.3
+lxml==4.9.3
+python-json-logger==2.0.7
