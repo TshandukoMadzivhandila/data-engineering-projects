@@ -1,29 +1,30 @@
-# Instructor Data Manager with SQLite and Pandas
+# Top 50 Highly Ranked Films Scraper
 
-This project demonstrates how to use Python with `pandas` and `sqlite3` to manage instructor data. The script reads a CSV file, loads it into a SQLite database, performs queries, appends a new row, and shows the updated results.
+This project is a Python script that scrapes the top 50 most highly ranked films from an archived *EverybodyWiki* page, then saves the data to both a CSV file and a SQLite database.
 
 ---
 
 ## Features
 
-- Loads instructor data from a CSV file
-- Creates a SQLite database and table (`INSTRUCTOR`)
-- Performs basic SQL queries:
-  - Display all rows
-  - Select specific columns
-  - Count total rows
-- Appends a new instructor record
-- Recounts and displays the updated number of rows
+- Web scraping using `requests` and `BeautifulSoup`
+- Data parsing and cleaning with `pandas`
+- Saves results to:
+  - CSV file: `data/top_50_films.csv`
+  - SQLite database: `data/Movies.db`, table: `Top_50`
+- Basic error handling for connection and data issues
 
 ---
 
 ## Project Structure
 
-Project 2, Web scraping etl/
+Project_2-Web scraping etl/
 │
-├── etl.py # Main script
+├── top_50_films_scraper.py # Main script
 ├── README.md # Project documentation
-└── INSTRUCTOR.csv # Input CSV file (you must provide this)
+├── requirements.txt # Python dependencies
+└── data/ # Output files (auto-created)
+├── top_50_films.csv # Scraped film data in CSV format
+└── Movies.db # SQLite database with film data
 
 
 ---
@@ -31,43 +32,12 @@ Project 2, Web scraping etl/
 ## Requirements
 
 - Python 3.x
-- `pandas` library
-
-Install pandas using pip if needed:
+- Install dependencies with:
 
 ```bash
-pip install pandas
-Usage
-Place your INSTRUCTOR.csv file in the project directory.
+pip install -r requirements.txt
+requirements.txt contains:
 
-Run the script:
-
-python etl.py
-The script will:
-
-Create (or overwrite) a SQLite database called STAFF.db
-
-Create a table named INSTRUCTOR
-
-Load the data into the table
-
-Print query results
-
-Append a new instructor row
-
-Print the updated row count
-
-Data Source
-Input CSV: INSTRUCTOR.csv
-
-The file is expected to have no header and five columns in this order:
-
-ID
-
-FNAME
-
-LNAME
-
-CITY
-
-CCODE
+requests
+beautifulsoup4
+pandas
