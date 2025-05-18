@@ -1,5 +1,3 @@
-Sure! Here's the content written in proper Markdown (README.md) format:
-
 # ETL Pipeline with Apache Airflow
 
 This project demonstrates a basic ETL (Extract, Transform, Load) pipeline built using **Apache Airflow**. The DAG downloads a web server log file, extracts relevant fields, transforms the data by capitalizing it, and saves the final output to a file.
