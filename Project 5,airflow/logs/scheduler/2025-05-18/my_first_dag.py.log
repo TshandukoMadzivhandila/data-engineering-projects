@@ -1,0 +1,46 @@
+[2025-05-18T12:53:41.669+0000] {processor.py:161} INFO - Started process (PID=709) to work on /home/project/airflow/dags/my_first_dag.py
+[2025-05-18T12:53:41.671+0000] {processor.py:830} INFO - Processing file /home/project/airflow/dags/my_first_dag.py for tasks to queue
+[2025-05-18T12:53:41.673+0000] {logging_mixin.py:188} INFO - [2025-05-18T12:53:41.673+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/project/airflow/dags/my_first_dag.py
+[2025-05-18T12:53:41.692+0000] {processor.py:840} INFO - DAG(s) 'my-first-python-etl-dag' retrieved from /home/project/airflow/dags/my_first_dag.py
+[2025-05-18T12:53:41.933+0000] {logging_mixin.py:188} INFO - [2025-05-18T12:53:41.932+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:my-first-python-etl-dag
+[2025-05-18T12:53:41.951+0000] {logging_mixin.py:188} INFO - [2025-05-18T12:53:41.950+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:my-first-python-etl-dag
+[2025-05-18T12:53:41.965+0000] {logging_mixin.py:188} INFO - [2025-05-18T12:53:41.964+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:my-first-python-etl-dag
+[2025-05-18T12:53:41.966+0000] {logging_mixin.py:188} INFO - [2025-05-18T12:53:41.965+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-18T12:53:41.983+0000] {logging_mixin.py:188} INFO - [2025-05-18T12:53:41.983+0000] {dag.py:3118} INFO - Creating ORM DAG for my-first-python-etl-dag
+[2025-05-18T12:53:42.001+0000] {logging_mixin.py:188} INFO - [2025-05-18T12:53:42.000+0000] {dag.py:3954} INFO - Setting next_dagrun for my-first-python-etl-dag to 2025-05-18 00:00:00+00:00, run_after=2025-05-19 00:00:00+00:00
+[2025-05-18T12:53:42.049+0000] {processor.py:183} INFO - Processing /home/project/airflow/dags/my_first_dag.py took 0.393 seconds
+[2025-05-18T12:54:12.251+0000] {processor.py:161} INFO - Started process (PID=777) to work on /home/project/airflow/dags/my_first_dag.py
+[2025-05-18T12:54:12.252+0000] {processor.py:830} INFO - Processing file /home/project/airflow/dags/my_first_dag.py for tasks to queue
+[2025-05-18T12:54:12.255+0000] {logging_mixin.py:188} INFO - [2025-05-18T12:54:12.254+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/project/airflow/dags/my_first_dag.py
+[2025-05-18T12:54:12.263+0000] {processor.py:840} INFO - DAG(s) 'my-first-python-etl-dag' retrieved from /home/project/airflow/dags/my_first_dag.py
+[2025-05-18T12:54:12.300+0000] {logging_mixin.py:188} INFO - [2025-05-18T12:54:12.300+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-18T12:54:12.341+0000] {logging_mixin.py:188} INFO - [2025-05-18T12:54:12.340+0000] {dag.py:3954} INFO - Setting next_dagrun for my-first-python-etl-dag to 2025-05-18 00:00:00+00:00, run_after=2025-05-19 00:00:00+00:00
+[2025-05-18T12:54:12.369+0000] {processor.py:183} INFO - Processing /home/project/airflow/dags/my_first_dag.py took 0.128 seconds
+[2025-05-18T12:54:42.482+0000] {processor.py:161} INFO - Started process (PID=844) to work on /home/project/airflow/dags/my_first_dag.py
+[2025-05-18T12:54:42.484+0000] {processor.py:830} INFO - Processing file /home/project/airflow/dags/my_first_dag.py for tasks to queue
+[2025-05-18T12:54:42.487+0000] {logging_mixin.py:188} INFO - [2025-05-18T12:54:42.486+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/project/airflow/dags/my_first_dag.py
+[2025-05-18T12:54:42.496+0000] {processor.py:840} INFO - DAG(s) 'my-first-python-etl-dag' retrieved from /home/project/airflow/dags/my_first_dag.py
+[2025-05-18T12:54:42.530+0000] {logging_mixin.py:188} INFO - [2025-05-18T12:54:42.529+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-18T12:54:42.563+0000] {logging_mixin.py:188} INFO - [2025-05-18T12:54:42.563+0000] {dag.py:3954} INFO - Setting next_dagrun for my-first-python-etl-dag to 2025-05-18 00:00:00+00:00, run_after=2025-05-19 00:00:00+00:00
+[2025-05-18T12:54:42.587+0000] {processor.py:183} INFO - Processing /home/project/airflow/dags/my_first_dag.py took 0.114 seconds
+[2025-05-18T12:55:12.800+0000] {processor.py:161} INFO - Started process (PID=910) to work on /home/project/airflow/dags/my_first_dag.py
+[2025-05-18T12:55:12.805+0000] {processor.py:830} INFO - Processing file /home/project/airflow/dags/my_first_dag.py for tasks to queue
+[2025-05-18T12:55:12.808+0000] {logging_mixin.py:188} INFO - [2025-05-18T12:55:12.808+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/project/airflow/dags/my_first_dag.py
+[2025-05-18T12:55:12.825+0000] {processor.py:840} INFO - DAG(s) 'my-first-python-etl-dag' retrieved from /home/project/airflow/dags/my_first_dag.py
+[2025-05-18T12:55:12.859+0000] {logging_mixin.py:188} INFO - [2025-05-18T12:55:12.859+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-18T12:55:12.896+0000] {logging_mixin.py:188} INFO - [2025-05-18T12:55:12.896+0000] {dag.py:3954} INFO - Setting next_dagrun for my-first-python-etl-dag to 2025-05-18 00:00:00+00:00, run_after=2025-05-19 00:00:00+00:00
+[2025-05-18T12:55:12.926+0000] {processor.py:183} INFO - Processing /home/project/airflow/dags/my_first_dag.py took 0.137 seconds
+[2025-05-18T12:55:43.013+0000] {processor.py:161} INFO - Started process (PID=984) to work on /home/project/airflow/dags/my_first_dag.py
+[2025-05-18T12:55:43.014+0000] {processor.py:830} INFO - Processing file /home/project/airflow/dags/my_first_dag.py for tasks to queue
+[2025-05-18T12:55:43.025+0000] {logging_mixin.py:188} INFO - [2025-05-18T12:55:43.025+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/project/airflow/dags/my_first_dag.py
+[2025-05-18T12:55:43.034+0000] {processor.py:840} INFO - DAG(s) 'my-first-python-etl-dag' retrieved from /home/project/airflow/dags/my_first_dag.py
+[2025-05-18T12:55:43.093+0000] {logging_mixin.py:188} INFO - [2025-05-18T12:55:43.093+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-18T12:55:43.167+0000] {logging_mixin.py:188} INFO - [2025-05-18T12:55:43.166+0000] {dag.py:3954} INFO - Setting next_dagrun for my-first-python-etl-dag to 2025-05-18 00:00:00+00:00, run_after=2025-05-19 00:00:00+00:00
+[2025-05-18T12:55:43.195+0000] {processor.py:183} INFO - Processing /home/project/airflow/dags/my_first_dag.py took 0.199 seconds
+[2025-05-18T12:56:13.853+0000] {processor.py:161} INFO - Started process (PID=1051) to work on /home/project/airflow/dags/my_first_dag.py
+[2025-05-18T12:56:13.855+0000] {processor.py:830} INFO - Processing file /home/project/airflow/dags/my_first_dag.py for tasks to queue
+[2025-05-18T12:56:13.867+0000] {logging_mixin.py:188} INFO - [2025-05-18T12:56:13.866+0000] {dagbag.py:545} INFO - Filling up the DagBag from /home/project/airflow/dags/my_first_dag.py
+[2025-05-18T12:56:13.887+0000] {processor.py:840} INFO - DAG(s) 'my-first-python-etl-dag' retrieved from /home/project/airflow/dags/my_first_dag.py
+[2025-05-18T12:56:13.974+0000] {logging_mixin.py:188} INFO - [2025-05-18T12:56:13.973+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-05-18T12:56:14.088+0000] {logging_mixin.py:188} INFO - [2025-05-18T12:56:14.087+0000] {dag.py:3954} INFO - Setting next_dagrun for my-first-python-etl-dag to 2025-05-18 00:00:00+00:00, run_after=2025-05-19 00:00:00+00:00
+[2025-05-18T12:56:14.141+0000] {processor.py:183} INFO - Processing /home/project/airflow/dags/my_first_dag.py took 0.303 seconds
