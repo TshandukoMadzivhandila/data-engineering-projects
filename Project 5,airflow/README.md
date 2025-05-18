@@ -26,8 +26,6 @@ The DAG performs the following five steps:
 
 | File Name              | Description                                       |
 
-|------------------------|---------------------------------------------------|
-
 | `web-server-access-log.txt` | Input log file downloaded from the web          |
 
 | `extracted-data.txt`         | File containing selected fields from the input |
@@ -55,8 +53,6 @@ The DAG performs the following five steps:
 ## Task Breakdown
 
 | Task ID         | Description                                        |
-
-|-----------------|----------------------------------------------------|
 
 | `download`      | Downloads the log file using a Python function     |
 
@@ -93,8 +89,5 @@ Notes
 Output files are written to the working directory where Airflow runs.
 
 The DAG uses local file I/O; ensure Airflow has permissions to read/write in the working directory.
-License
-This project is for educational purposes and is provided under the MIT License.
 
-Let me know if you'd like this content saved to a file for download.
  
